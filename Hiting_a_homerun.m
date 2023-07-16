@@ -89,7 +89,7 @@ ax.MinorGridAlpha = 0.5;
 xlabel('x (ft)', 'FontSize', 18) 
 ylabel('y (ft)', 'FontSize', 18)
 
-title({'ECE 202, Project 2, Phase 3: Trajectory of a baseball', ...
+title({'Trajectory of a baseball', ...
     'With drag Vs. No Drag'},'FontSize', 24)
 l1 = sprintf('With Drag, C = %g',C);
 legend('Without Drag',l1,'FontSize', 18)
